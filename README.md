@@ -1,13 +1,13 @@
 # celery_demo
 a small demo of celery application
 
-# 启动异步任务
+## 启动异步任务
 项目根目录执行下列命令：
 ``` bash
 $ celery -A celery_app_worker worker -loglevel info
 ```
 
-# 启动定时任务
+## 启动定时任务
 先在项目根目录执行：
 ``` bash
 $ celery -A celery_app_beat worker -loglevel info
