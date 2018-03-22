@@ -1,4 +1,7 @@
 # Byte-compiled / optimized / DLL files
+.vscode/*
+.idea/*
+celerybeat.*
 __pycache__/
 *.py[cod]
 *$py.class
